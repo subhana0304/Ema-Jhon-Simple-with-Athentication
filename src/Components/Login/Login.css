@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.form-container{
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    text-align: center;
+}
+.form-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2a414f;
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.form-control label{
+    display: block;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+    text-align: left;
+    padding-left: 40px;
+}
+.form-control input{
+    width: 415px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    font-size: 1em;
+    padding-left: 10px;
+}
+.btn-submit{
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    color: #0E161A;
+    letter-spacing: 0.015em;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.btn-submit:hover{
+    background: rgba(255, 153, 0, 0.6);
+}
